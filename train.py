@@ -25,7 +25,7 @@ from misc import ReplayBuffer
 cudnn.benchmark = True
 
 ckpt_path = './ckpt'
-exp_name = 'PG2021'
+exp_name = 'NN2025'
 
 args = {
     'iter_num': 300000,
@@ -36,7 +36,7 @@ args = {
     'weight_decay': 0,
     'momentum': 0.9,
     'resume_snapshot': '',
-    'val_freq': 50000000,
+    'val_freq': 5000,
     'img_size_h': 480,
     'img_size_w': 720,
     'crop_size': 512,
