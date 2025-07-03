@@ -163,24 +163,6 @@ class GenerativeNetwork(nn.Module):
         self.body = nn.Sequential(
             DenseRR(),
             nn.Conv2d(768, num_features, kernel_size=1, stride=1), nn.LeakyReLU(0.2)
-            # External_attention(64)
-            # nn.Conv2d(3, 32, kernel_size=4, stride=2, padding=1), nn.ReLU(),
-            # nn.Conv2d(32, num_features, kernel_size=1, stride=1, padding=0), nn.ReLU(),
-            # DilatedResidualBlock(num_features, 1),
-            # DilatedResidualBlock(num_features, 1),
-            # DilatedResidualBlock(num_features, 2),
-            # DilatedResidualBlock(num_features, 2),
-            # DilatedResidualBlock(num_features, 4),
-            # DilatedResidualBlock(num_features, 8),
-            # DilatedResidualBlock(num_features, 4),
-            # DilatedResidualBlock(num_features, 2),
-            # DilatedResidualBlock(num_features, 2),
-            # DilatedResidualBlock(num_features, 1),
-            # DilatedResidualBlock(num_features, 1)     # 没有Relu
-            # DenseASPP1(output_stride=8)
-            # nn.InstanceNorm2d(64),
-            # nn.ReLU(),
-            # DenseASPP1(output_stride=8)
         )
         # output = 64 * 160 * 240
 
