@@ -30,7 +30,7 @@ author = {Yongzhen Wang and Xuefeng Yan and Yanbiao Niu and Lina Gong and Yanwen
   
 ### DEMore-Net Training and Test
 
-- Using build_data.py/databuildMOR.py to  generate train.txt, gt.txt, and the depth.txt.
+- Using build_data.py/databuildMOR.py to  generate train.txt, gt.txt, and depth.txt.
 
 - Train the DEMore-Net model:
 ```bash
