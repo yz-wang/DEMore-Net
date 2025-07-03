@@ -36,13 +36,13 @@ author = {Yongzhen Wang and Xuefeng Yan and Yanbiao Niu and Lina Gong and Yanwen
 ```bash
 python train.py
 ```
-The checkpoints will be stored at `./ckpt`.
+The checkpoints will be stored at `./ckpt/NN2025`.
 
 - Test the DEMore-Net model:
 ```bash
 python infer.py
 ```
-The test results will be saved to an html file here: `./ckpt/`.
+The test results will be saved to an html file here: `./ckpt/NN2025/`.
 
 
 ### Acknowledgments
