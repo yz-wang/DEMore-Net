@@ -13,7 +13,7 @@ torch.manual_seed(2019)
 torch.cuda.set_device(0)
 
 ckpt_path = './ckpt'
-exp_name = '2021'
+exp_name = '2025'
 args = {
     'snapshot': '300000',
     'depth_snapshot': ''
